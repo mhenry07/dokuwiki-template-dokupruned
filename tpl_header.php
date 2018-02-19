@@ -62,7 +62,15 @@ if (!defined('DOKU_INC')) die();
             <h3 class="a11y"><?php echo $lang['site_tools']; ?></h3>
             <?php tpl_searchform(); ?>
             <div class="mobileTools">
-                <?php tpl_actiondropdown($lang['tools']); ?>
+                <?php
+                    // use output buffering to capture echo output from tpl_actiondropdown
+                    ob_start();
+                    tpl_actiondropdown($lang['tools']);
+                    $actions = ob_get_clean();
+                    // strip register option
+                    $actions = preg_replace('/<option value="register">.*?</option>/s', '', $mobile_tools);
+                    echo $actions;
+                ?>
             </div>
             <ul>
                 <?php

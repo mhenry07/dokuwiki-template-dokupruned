@@ -68,7 +68,7 @@ if (!defined('DOKU_INC')) die();
                     tpl_actiondropdown($lang['tools']);
                     $actions = ob_get_clean();
                     // strip register option
-                    $actions = preg_replace('/<option value="register">.*?</option>/s', '', $actions);
+                    $actions = preg_replace('#<option value="register">.*?</option>#s', '', $actions);
                     echo $actions;
                 ?>
             </div>

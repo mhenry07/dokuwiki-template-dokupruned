@@ -12,7 +12,7 @@ DokuWiki root, then in Configuration Manager set template to dokupruned.
 
 ## Changelog
 
-### [dokupruned-2017-02-17e.1] - 2018-02-01
+### [dokupruned-2017-02-19.1] - 2018-02-01
 
 - removed "Register" links/entries from header to allow
   [plugin:oauth](https://www.dokuwiki.org/plugin:oauth) to register new OAuth
@@ -20,4 +20,4 @@ DokuWiki root, then in Configuration Manager set template to dokupruned.
   - see cosmocode/dokuwiki-plugin-oauth#62
 - removed badges from footer except for license and DokuWiki badges
 
-[dokupruned-2017-02-17e.1]: https://github.com/mhenry07/dokuwiki-template-dokupruned/compare/dokuwiki-template-2017-02-19e...dokupruned-2017-02-19.1
+[dokupruned-2017-02-19.1]: https://github.com/mhenry07/dokuwiki-template-dokupruned/compare/dokuwiki-template-2017-02-19e...dokupruned-2017-02-19.1

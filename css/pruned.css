@@ -1,0 +1,4 @@
+/* hide register link */
+a.action.register {
+  display: none !important;
+}

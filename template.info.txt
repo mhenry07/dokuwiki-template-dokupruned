@@ -1,7 +1,7 @@
-base     dokuwiki
-author   Anika Henke
-email    anika@selfthinker.org
-date     2015-07-26
-name     DokuWiki Template
-desc     DokuWiki's default template since 2012
-url      http://www.dokuwiki.org/template:dokuwiki
+base     dokupruned
+author   Mike Henry
+email    yahoo.com <-> mhenry07
+date     2018-02-01
+name     DokuWiki Pruned Template
+desc     Modified version of DokuWiki's default template by Anika Henke
+url      https://github.com/mhenry07/dokuwiki-template-dokupruned
